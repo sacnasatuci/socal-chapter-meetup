@@ -6,89 +6,97 @@ main:
   - name: Home
     url: /#top
     weight: 10
-  - name: Features
-    url: /#features
+  - name: About
+    url: /#about
     weight: 20
-  - name: Solutions
-    url: /#solutions
+  - name: Testimonials
+    url: /#testimonials
     weight: 30
-  - name: Changelog
-    url: /changelog/
-    weight: 35
-  - name: Resources
+  - name: Chapters
+    url: /#chapters
     weight: 40
+  - name: 2026 Meet-Up
+    url: /2026-meet-up/
+    weight: 50
+  - name: Past Meet-Ups
+    weight: 60
     hasChildren: true
-  - parent: Resources
-    name: Blog
-    url: blog/
+  - parent: Past Meet-Ups
+    weight: 98
+    name: 2025
+    url: 2025-meet-up/
+  - parent: Past Meet-Ups
+    weight: 99
+    name: 2024
+    url: 2024-meet-up/
 
 # Footer links (4-column layout)
 #   Top-level items become column headings, children become links.
 footer:
-  - name: Product
+  - name: SoCal Chapter Meet-Up Forms
     weight: 10
-  - parent: Product
-    name: Features
-    url: /#features
+  - parent: SoCal Chapter Meet-Up Forms
+    name: Interest Form
+    url: https://forms.gle/wCJ1FTRKnRdjr3Rv6
     weight: 10
-  - parent: Product
-    name: Solutions
-    url: /#solutions
+  - parent: SoCal Chapter Meet-Up Forms
+    name: When2Meet Planning Meeting
+    url: https://www.when2meet.com/?35530745-IHUjw #https://www.when2meet.com/?35521627-345nL
     weight: 20
-  - parent: Product
-    name: Pricing
-    url: "#"
-    weight: 30
-  - parent: Product
-    name: Changelog
-    url: /changelog/
-    weight: 40
+  #- parent: Product
+  #  name: Pricing
+  #  url: "#"
+  #  weight: 30
+  #- parent: Product
+  #  name: Changelog
+  #  url: /changelog/
+  #  weight: 40
 
-  - name: Company
-    weight: 20
-  - parent: Company
-    name: About
-    url: "#"
-    weight: 10
-  - parent: Company
-    name: Blog
-    url: /blog/
-    weight: 20
-  - parent: Company
-    name: Careers
-    url: "#"
-    weight: 30
-  - parent: Company
-    name: Contact
-    url: "#"
-    weight: 40
+  #- name: Company
+  #  weight: 20
+  #- parent: Company
+  #  name: About
+  #  url: "#"
+  #  weight: 10
+  #- parent: Company
+  #  name: Blog
+  #  url: /blog/
+  #  weight: 20
+  #- parent: Company
+  #  name: Careers
+  #  url: "#"
+  #  weight: 30
+  #- parent: Company
+  #  name: Contact
+  #  url: "#"
+  #  weight: 40
 
-  - name: Resources
-    weight: 30
-  - parent: Resources
-    name: Documentation
-    url: "#"
-    weight: 10
-  - parent: Resources
-    name: Help Center
-    url: "#"
-    weight: 20
-  - parent: Resources
-    name: Community
-    url: "#"
-    weight: 30
-  - parent: Resources
-    name: Status
-    url: "#"
-    weight: 40
+  #- name: Resources
+  #  weight: 30
+  #- parent: Resources
+  #  name: Documentation
+  #  url: "#"
+  #  weight: 10
+  #- parent: Resources
+  #  name: Help Center
+  #  url: "#"
+  #  weight: 20
+  #- parent: Resources
+  #  name: Community
+  #  url: "#"
+  #  weight: 30
+  #- parent: Resources
+  #  name: Status
+  #  url: "#"
+  #  weight: 40
 
-  - name: Legal
-    weight: 40
-  - parent: Legal
-    name: Privacy Policy
-    url: /privacy/
-    weight: 10
-  - parent: Legal
-    name: Terms of Service
-    url: /terms/
-    weight: 20
+  #- name: Legal
+  #  weight: 40
+  #- parent: Legal
+  #  name: Privacy Policy
+  #  url: /privacy/
+  #  weight: 10
+  #- parent: Legal
+  #  name: Terms of Service
+  #  url: /terms/
+  #  weight: 20

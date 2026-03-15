@@ -11,12 +11,12 @@ design:
 sections:
   - block: hero
     content:
-      title: SoCal SACNAS Chapters<br /><br />
+      title: SoCal Chapters<br /><br />
       #text: 🏝️ JOIN THE 2026 SOCAL MEET-UP  🌊
       primary_action:
         text: Join the 2026 SoCal Chapter Meet-Up
         url: https://forms.gle/GCMudeFpXzabWZAr6
-        icon: rocket-launch
+        icon: brands/UCI-Chapter-Logo-Circle #rocket-launch
       #secondary_action:
       #  text: Zoom Planning When2Meet
       #  url: https://www.when2meet.com/?35530745-IHUjw

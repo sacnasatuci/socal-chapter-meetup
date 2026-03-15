@@ -12,9 +12,9 @@ sections:
   - block: hero
     content:
       title: SoCal SACNAS Chapters
-      text: 🏝️ JOIN THE 2026 SOCAL MEET-UP  🌊
+      #text: 🏝️ JOIN THE 2026 SOCAL MEET-UP  🌊
       primary_action:
-        text: Interest Form
+        text: Join the 2026 SoCal Chapter Meet-Up
         url: https://forms.gle/GCMudeFpXzabWZAr6
         icon: rocket-launch
       #secondary_action:

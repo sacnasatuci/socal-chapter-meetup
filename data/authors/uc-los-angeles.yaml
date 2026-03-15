@@ -1,0 +1,30 @@
+# data/authors/university.yaml
+# University Name
+name:
+  display: University of California, Los Angeles
+# Chapter Name
+role: UCLA SACNAS Chapter
+# bio: "Members:"
+# City, State
+affiliations:
+  - name: Los Angeles, CA
+# Chapter Members [undergraduate, graduate, professionals, etc.]
+interests:
+  - Undergraduate
+  - Graduate
+links:
+  - icon: brands/instagram
+    url: https://www.instagram.com/sacnas.ucla/
+    label: Follow us on Instagram!
+  #- icon: globe-alt #computer-desktop
+  #  url: TODO
+  #  label: Visit our website!
+  - icon: at-symbol
+    url: 'mailto:sacnas.ucla@gmail.com'
+    label: Email us!
+user_groups:
+  - Student Chapters
+order: 71
+# What year was the chapter established?
+#   Ask Chapters for this information
+established: TODO

@@ -1,0 +1,29 @@
+# data/authors/university.yaml
+# University Name
+name:
+  display: Los Angeles Valley College
+# Chapter Name
+role: LAVC SACNAS Chapter
+# bio: "Members:"
+# City, State
+affiliations:
+  - name: Valley Glen, CA
+# Chapter Members [undergraduate, graduate, professionals, etc.]
+interests:
+  - Undergraduate
+links:
+  - icon: brands/instagram
+    url: https://www.instagram.com/sacnas.lavc/
+    label: Follow us on Instagram!
+  - icon: globe-alt #computer-desktop
+    url: https://sacnaslavc.weebly.com/
+    label: Visit our website!
+  - icon: at-symbol
+    url: 'mailto:sacnas.lavc@gmail.com'
+    label: Email us!
+user_groups:
+  - Student Chapters
+order: 40
+# What year was the chapter established?
+#   Ask Chapters for this information
+established: 2024

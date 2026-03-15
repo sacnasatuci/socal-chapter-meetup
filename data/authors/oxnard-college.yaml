@@ -1,0 +1,29 @@
+# data/authors/university.yaml
+# University Name
+name:
+  display: Oxnard College
+# Chapter Name
+role: OC SACNAS Chapter
+# bio: "Members:"
+# City, State
+affiliations:
+  - name: Oxnard, CA
+# Chapter Members [undergraduate, graduate, professionals, etc.]
+interests:
+  - Undergraduate
+links:
+  - icon: brands/instagram
+    url: https://www.instagram.com/sacnasoxnardcollege/
+    label: Follow us on Instagram!
+  #- icon: globe-alt #computer-desktop
+  #  url: TODO
+  #  label: Visit our website!
+  - icon: at-symbol
+    url: 'mailto:ocsacnas@gmail.com'
+    label: Email us!
+user_groups:
+  - Student Chapters
+order: 50
+# What year was the chapter established?
+#   Ask Chapters for this information
+established: TODO

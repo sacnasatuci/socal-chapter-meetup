@@ -1,0 +1,29 @@
+# data/authors/university.yaml
+# University Name
+name:
+  display: California State Polytechnic University, Pomona
+# Chapter Name
+role: CPP SACNAS Chapter
+# bio: "Members:"
+# City, State
+affiliations:
+  - name: Pomona, CA
+# Chapter Members [undergraduate, graduate, professionals, etc.]
+interests:
+  - Undergraduate
+links:
+  - icon: brands/instagram
+    url: https://www.instagram.com/cppsacnas/
+    label: Follow us on Instagram!
+  - icon: globe-alt #computer-desktop
+    url: https://cppsacnas.github.io/sacnas/
+    label: Visit our website!
+  - icon: at-symbol
+    url: 'mailto:sacnascpp@gmail.com'
+    label: Email us!
+user_groups:
+  - Student Chapters
+order: 10
+# What year was the chapter established?
+#   Ask Chapters for this information
+established: TODO

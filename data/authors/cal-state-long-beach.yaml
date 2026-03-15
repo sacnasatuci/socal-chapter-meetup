@@ -1,0 +1,29 @@
+# data/authors/university.yaml
+# University Name
+name:
+  display: California State University Long Beach
+# Chapter Name
+role: CSULB SACNAS Chapter
+# bio: "Members:"
+# City, State
+affiliations:
+  - name: Long Beach, CA
+# Chapter Members [undergraduate, graduate, professionals, etc.]
+interests:
+  - Undergraduate
+links:
+  #- icon: brands/instagram
+  #  url: TODO
+  #  label: Follow us on Instagram!
+  #- icon: globe-alt #computer-desktop
+  #  url: TODO
+  #  label: Visit our website!
+  - icon: at-symbol
+    url: 'mailto:sacnascsulbchapter@gmail.com'
+    label: Email us!
+user_groups:
+  - Student Chapters
+order: 13
+# What year was the chapter established?
+#   Ask Chapters for this information
+established: TODO

@@ -1,0 +1,29 @@
+# data/authors/university.yaml
+# University Name
+name:
+  display: University of San Diego
+# Chapter Name
+role: SACNAS Chapter at USD
+# bio: "Members:"
+# City, State
+affiliations:
+  - name: San Diego, CA
+# Chapter Members [undergraduate, graduate, professionals, etc.]
+interests:
+  - Undergraduate
+links:
+  #- icon: brands/instagram
+  #  url: TODO
+  #  label: Follow us on Instagram!
+  #- icon: globe-alt #computer-desktop
+  #  url: TODO
+  #  label: Visit our website!
+  - icon: at-symbol
+    url: 'mailto:sacnas@sandiego.edu'
+    label: Email us!
+user_groups:
+  - Provisional Chapters
+order: 75
+# What year was the chapter established?
+#   Ask Chapters for this information
+established: TODO

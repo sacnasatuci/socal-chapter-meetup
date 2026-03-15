@@ -1,0 +1,30 @@
+# data/authors/university.yaml
+# University Name
+name:
+  display: University of California, San Diego
+# Chapter Name
+role: SACNAS Chapter at UC San Diego
+# bio: "Members:"
+# City, State
+affiliations:
+  - name: La Jolla, CA
+# Chapter Members [undergraduate, graduate, professionals, etc.]
+interests:
+  - Undergraduate
+  - Graduate
+links:
+  - icon: brands/instagram
+    url: https://www.instagram.com/sacnas_atucsd/
+    label: Follow us on Instagram!
+  - icon: globe-alt #computer-desktop
+    url: https://sites.google.com/ucsd.edu/sacnas-at-ucsd
+    label: Visit our website!
+  - icon: at-symbol
+    url: 'mailto:sacnasatucsd@ucsd.edu'
+    label: Email us!
+user_groups:
+  - Student Chapters
+order: 73
+# What year was the chapter established?
+#   Ask Chapters for this information
+established: TODO

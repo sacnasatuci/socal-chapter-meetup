@@ -1,0 +1,29 @@
+# data/authors/university.yaml
+# University Name
+name:
+  display: University of California, Santa Barbara
+# Chapter Name
+role: SACNAS UCSB
+# bio: "Members:"
+# City, State
+affiliations:
+  - name: Santa Barbara, CA
+# Chapter Members [undergraduate, graduate, professionals, etc.]
+interests:
+  - Graduate
+links:
+  - icon: brands/instagram
+    url: https://www.instagram.com/ucsbsacnasgrad/
+    label: Follow us on Instagram!
+  - icon: globe-alt #computer-desktop
+    url: https://www.ucsbsacnasgrad.org/
+    label: Visit our website!
+  - icon: at-symbol
+    url: 'mailto:gradsacnasucsb@gmail.com'
+    label: Email us!
+user_groups:
+  - Student Chapters
+order: 74
+# What year was the chapter established?
+#   Ask Chapters for this information
+established: TODO

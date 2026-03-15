@@ -1,0 +1,29 @@
+# data/authors/university.yaml
+# University Name
+name:
+  display: University of California, Riverside
+# Chapter Name
+role: UCR SACNAS Chapter
+# bio: "Members:"
+# City, State
+affiliations:
+  - name: Riverside, CA
+# Chapter Members [undergraduate, graduate, professionals, etc.]
+interests:
+  - Undergraduate
+links:
+  - icon: brands/instagram
+    url: https://www.instagram.com/ucr.sacnas/
+    label: Follow us on Instagram!
+  - icon: globe-alt #computer-desktop
+    url: https://linktr.ee/ucr.sacnas
+    label: Visit our website!
+  - icon: at-symbol
+    url: 'mailto:mrodr387@ucr.edu'
+    label: Email us!
+user_groups:
+  - Student Chapters
+order: 72
+# What year was the chapter established?
+#   Ask Chapters for this information
+established: TODO

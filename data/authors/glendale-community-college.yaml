@@ -1,0 +1,29 @@
+# data/authors/university.yaml
+# University Name
+name:
+  display: Glendale Community College
+# Chapter Name
+role: SACNAS at GCC
+# bio: "Members:"
+# City, State
+affiliations:
+  - name: Glendale, CA
+# Chapter Members [undergraduate, graduate, professionals, etc.]
+interests:
+  - Undergraduate
+links:
+  - icon: brands/instagram
+    url: https://www.instagram.com/sacnas_chaptergcc/
+    label: Follow us on Instagram!
+  - icon: globe-alt #computer-desktop
+    url: https://www.associatedstudentsgcc.com/secret-club-store/p/sacnas-chapter-at-gcc
+    label: Visit our website!
+  - icon: at-symbol
+    url: 'mailto:sacnasatgcc@gmail.com'
+    label: Email us!
+user_groups:
+  - Provisional Chapters
+order: 30
+# What year was the chapter established?
+#   Ask Chapters for this information
+established: TODO

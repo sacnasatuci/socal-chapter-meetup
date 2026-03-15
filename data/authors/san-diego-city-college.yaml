@@ -1,0 +1,29 @@
+# data/authors/university.yaml
+# University Name
+name:
+  display: San Diego City College
+# Chapter Name
+role: San Diego City College SACNAS Chapter
+# bio: "Members:"
+# City, State
+affiliations:
+  - name: San Diego, CA
+# Chapter Members [undergraduate, graduate, professionals, etc.]
+interests:
+  - Undergraduate
+links:
+  - icon: brands/instagram
+    url: https://www.instagram.com/sdsacnas/
+    label: Follow us on Instagram!
+  #- icon: globe-alt #computer-desktop
+  #  url: TODO
+  #  label: Visit our website!
+  - icon: at-symbol
+    url: 'mailto:sacnassdcity@gmail.com'
+    label: Email us!
+user_groups:
+  - Student Chapters
+order: 60
+# What year was the chapter established?
+#   Ask Chapters for this information
+established: TODO

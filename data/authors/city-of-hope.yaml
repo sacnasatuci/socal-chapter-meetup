@@ -1,0 +1,29 @@
+# data/authors/university.yaml
+# University Name
+name:
+  display: City of Hope
+# Chapter Name
+role: SACNAS Chapter at City of Hope
+# bio: "Members:"
+# City, State
+affiliations:
+  - name: Duarte, CA
+# Chapter Members [undergraduate, graduate, professionals, etc.]
+interests:
+  - Undergraduate
+links:
+  #- icon: brands/instagram
+  #  url: TODO
+  #  label: Follow us on Instagram!
+  #- icon: globe-alt #computer-desktop
+  #  url: TODO
+  #  label: Visit our website!
+  - icon: at-symbol
+    url: 'mailto:COHSACNAS@GMAIL.COM'
+    label: Email us!
+user_groups:
+  - Student Chapters
+order: 20
+# What year was the chapter established?
+#   Ask Chapters for this information
+established: TODO

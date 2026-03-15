@@ -1,0 +1,29 @@
+# data/authors/university.yaml
+# University Name
+name:
+  display: TODO
+# Chapter Name
+role: TODO
+# bio: "Members:"
+# City, State
+affiliations:
+  - name: TODO, CA
+# Chapter Members [undergraduate, graduate, professionals, etc.]
+interests:
+  - TODO
+links:
+  - icon: brands/instagram
+    url: TODO
+    label: Follow us on Instagram!
+  - icon: globe-alt #computer-desktop
+    url: TODO
+    label: Visit our website!
+  - icon: at-symbol
+    url: 'mailto:TODO'
+    label: Email us!
+user_groups:
+  - TODO
+order: TODO
+# What year was the chapter established?
+#   Ask Chapters for this information
+established: TODO

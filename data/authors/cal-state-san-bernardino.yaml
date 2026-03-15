@@ -1,0 +1,29 @@
+# data/authors/university.yaml
+# University Name
+name:
+  display: California State University San Bernardino
+# Chapter Name
+role: SACNAS @ California State University, San Bernardino
+# bio: "Members:"
+# City, State
+affiliations:
+  - name: San Bernardino, CA
+# Chapter Members [undergraduate, graduate, professionals, etc.]
+interests:
+  - Undergraduate
+links:
+  - icon: brands/instagram
+    url: https://www.instagram.com/sacnascsusb/?hl=en
+    label: Follow us on Instagram!
+  - icon: globe-alt #computer-desktop
+    url: https://sacnascsusb.wordpress.com/
+    label: Visit our website!
+  - icon: at-symbol
+    url: 'mailto:Sacnas.csusb@gmail.com'
+    label: Email us!
+user_groups:
+  - Student Chapters
+order: 14
+# What year was the chapter established?
+#   Ask Chapters for this information
+established: TODO

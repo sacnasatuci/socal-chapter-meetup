@@ -1,0 +1,29 @@
+# data/authors/university.yaml
+# University Name
+name:
+  display: California State University Fullerton
+# Chapter Name
+role: CSUF SACNAS Chapter
+# bio: "Members:"
+# City, State
+affiliations:
+  - name: Fullerton, CA
+# Chapter Members [undergraduate, graduate, professionals, etc.]
+interests:
+  - Undergraduate
+links:
+  - icon: brands/instagram
+    url: https://www.instagram.com/sacnascsuf/
+    label: Follow us on Instagram!
+  - icon: globe-alt #computer-desktop
+    url: https://fullerton.campuslabs.com/engage/organization/sacnascsuf
+    label: Visit our website!
+  - icon: at-symbol
+    url: 'mailto:s4cnascsuf@gmail.com'
+    label: Email us!
+user_groups:
+  - Student Chapters
+order: 12
+# What year was the chapter established?
+#   Ask Chapters for this information
+established: TODO

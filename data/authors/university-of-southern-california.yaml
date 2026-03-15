@@ -1,0 +1,30 @@
+# data/authors/university.yaml
+# University Name
+name:
+  display: University of Southern California
+# Chapter Name
+role: USC SACNAS Chapter
+# bio: "Members:"
+# City, State
+affiliations:
+  - name: Los Angeles, CA
+# Chapter Members [undergraduate, graduate, professionals, etc.]
+interests:
+  - Undergraduate
+  - Graduate
+links:
+  - icon: brands/instagram
+    url: https://www.instagram.com/sacnasusc/?hl=en
+    label: Follow us on Instagram!
+  - icon: globe-alt #computer-desktop
+    url: https://uscsacnas.weebly.com/
+    label: Visit our website!
+  - icon: at-symbol
+    url: 'mailto:sacnas@usc.edu'
+    label: Email us!
+user_groups:
+  - Student Chapters
+order: 76
+# What year was the chapter established?
+#   Ask Chapters for this information
+established: TODO

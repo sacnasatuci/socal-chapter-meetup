@@ -1,0 +1,30 @@
+# data/authors/university.yaml
+# University Name
+name:
+  display: University of California, Irvine
+# Chapter Name
+role: UCI SACNAS Chapter
+# bio: "Members:"
+# City, State
+affiliations:
+  - name: Irvine, CA
+# Chapter Members [undergraduate, graduate, professionals, etc.]
+interests:
+  - Undergraduate
+  - Graduate
+links:
+  - icon: brands/instagram
+    url: https://www.instagram.com/sacnasatuci/
+    label: Follow us on Instagram!
+  - icon: globe-alt #computer-desktop
+    url: https://sites.uci.edu/sacnasatuci/
+    label: Visit our website!
+  - icon: at-symbol
+    url: 'mailto:sacnas@uci.edu'
+    label: Email us!
+user_groups:
+  - Student Chapters
+order: 70
+# What year was the chapter established?
+#   Ask Chapters for this information
+established: 2017

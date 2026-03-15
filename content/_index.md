@@ -11,8 +11,8 @@ design:
 sections:
   - block: hero
     content:
-      title: <br />SoCal SACNAS Chapters
-      text: 🏝️ JOIN THE 2026 SOCAL CHAPTER MEET-UP  🌊
+      title: SoCal SACNAS Chapters
+      text: 🏝️ JOIN THE 2026 SOCAL MEET-UP  🌊
       primary_action:
         text: Interest Form
         url: https://forms.gle/GCMudeFpXzabWZAr6

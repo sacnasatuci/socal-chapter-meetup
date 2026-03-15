@@ -11,7 +11,7 @@ design:
 sections:
   - block: hero
     content:
-      title: SoCal SACNAS Chapters<br /><br /><br /><br />
+      title: SoCal SACNAS Chapters<br /><br />
       #text: 🏝️ JOIN THE 2026 SOCAL MEET-UP  🌊
       primary_action:
         text: Join the 2026 SoCal Chapter Meet-Up

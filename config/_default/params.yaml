@@ -145,14 +145,14 @@ hugoblox:
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
-
+  
   # ────────────────────────────────────────────────────────────────────────────
   # SEO
   # Search engine optimization - overrides and technical settings
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: ""
+    title: "SoCal SACNAS Chapters"
     # For local_business identity type only
     location:
       address:

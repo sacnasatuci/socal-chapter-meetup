@@ -43,6 +43,28 @@ footer:
     name: When2Meet Planning Meeting
     url: https://www.when2meet.com/?35530745-IHUjw #https://www.when2meet.com/?35521627-345nL
     weight: 20
+  - name: Chapter Info Forms
+    weight: 20
+  - parent: Chapter Info Forms
+    name: Coming Soon...
+    url: #TODO
+    weight: 10
+  - name: Testimonials
+    weight: 30
+  - parent: Testimonials
+    name: What does SACNAS mean to you?
+    url: https://forms.gle/u5earuU1CR2fE1uG9
+    weight: 10
+  - name: Web Admin
+    weight: 40
+  - parent: Web Admin
+    name: About
+    url: /authors/_webmaster/
+    weight: 10
+  - parent: Web Admin
+    name: Contact
+    url: /authors/_webmaster/
+    weight: 20
   #- parent: Product
   #  name: Pricing
   #  url: "#"

@@ -186,6 +186,24 @@ sections:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
         padding: ["6rem", 0, 0, 0]
+  - block: cta-button-list
+    content:
+      title: "Choose Your Path"
+      text: "Multiple ways to get started with our platform"
+      buttons:
+        - text: "Share what SACNAS means to you!"
+          url: https://forms.gle/u5earuU1CR2fE1uG9
+          icon: "brands/Chapter-Logo"
+        #- text: "For Businesses"
+        #  url: "/business"
+        #  icon: "building-office"
+        #- text: "For Students"
+        #  url: "/students"
+        #  icon: "book-open"
+    design:
+      columns: "1"
+      background:
+        color: "blue-50"
   - block: team-showcase
     id: chapters
     content:

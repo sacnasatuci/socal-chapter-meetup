@@ -21,10 +21,10 @@ sections:
       #  text: Zoom Planning When2Meet
       #  url: https://www.when2meet.com/?35530745-IHUjw
       #announcement:
-      #  text: "Announcing the release of version 1."
+      #  text: "T"
       #  link:
-      #    text: "Read more"
-      #    url: "/blog/"
+      #    text: "Join the 2026 SoCal Chapter Meet-Up"
+      #    url: "https://forms.gle/GCMudeFpXzabWZAr6"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -46,13 +46,13 @@ sections:
       items:
         - statistic: "5+"
           description: |
-            Counties
+            Southern California Counties
         - statistic: "20"
           description: |
             Southern California SACNAS Chapters
         - statistic: "150+"
           description: |
-            SACNAS Members
+            Southern California SACNAS Members
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
@@ -208,8 +208,9 @@ sections:
     id: chapters
     content:
       title: SoCal SACNAS Chapters
-      subtitle: List of all Southern California SACNAS Chapters 🌊
-      #text: Our diverse team brings together expertise from multiple disciplines.
+      subtitle: |
+        {{< button url="https://www.sacnas.org/chapters/chapter-directory" style="outline" icon="brands/Chapter-Logo" new_tab="true" >}}Full SACNAS Chapter Directory{{< /button >}}
+      text: List of all Southern California SACNAS Chapters 🌊 #Our diverse team brings together expertise from multiple disciplines.
       user_groups:
         - Provisional Chapters
         - Student Chapters
@@ -315,4 +316,29 @@ sections:
         # Card background color (CSS class)
         css_class: "bg-primary-300"
         css_style: ""
+  - block: hero
+    content:
+      title: Learn More About SACNAS
+      text: "Society for Advancement of Chicanos/Hispanics & Native Americans in Science"
+      primary_action:
+        text: "Learn More"
+        url: "https://www.sacnas.org/"
+        icon: brands/Chapter-Logo
+      secondary_action:
+        text: "Become a Member"
+        url: "https://www.sacnas.org/memberships"
+      announcement:
+        text: "SACNAS Annual Conference"
+        link:
+          text: "2026 Long Beach"
+          url: "https://www.sacnas.org/conference"
+    design:
+      background:
+        color: ""
+        #gradient_start: "#4f46e5"
+        #gradient_end: "#7c3aed"
+        #text_color_light: true
+      spacing:
+        padding: [0, 0, 0, 0]
+        margin: [0, 0, 0, 0]
 ---

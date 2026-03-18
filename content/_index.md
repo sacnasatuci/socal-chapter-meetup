@@ -173,10 +173,18 @@ sections:
       title: "Testimonials"
       #text: "Hear from SACNAS members that have attended a SoCal Chapter Meet-Up in the past!"
       items:
+        - name: "Angel  Rebollar"
+          role: "National Chapters Manager, SACNAS"
+          image: "headshots/Angel-Rebollar.png"
+          text: "SACNAS means community, science, a home away from home. SACNAS provides students and professionals the opportunity to bring their whole selves to STEM !"
         - name: "Juan Gonzalez"
           role: "UC San Diego SACNAS Graduate Events Coordinator"
           image: "headshots/Juan-Gonzalez-UCSD.png"
           text: "The SoCal meet-up makes the community feel much larger. It reminds me that this STEM journey is being pursued by so many SACNAS members across different chapters, and I really enjoy getting to know each new person I encounter."
+        - name: "Angel  Rebollar"
+          role: "National Chapters Manager, SACNAS"
+          image: "headshots/Angel-Rebollar.png"
+          text: "The benefits of the SoCal Chapter Meet-Up are to collaborate with nearby chapters and provide networking opportunities for the local SoCal SACNAS Community. A must attend if you are part of SACNAS / STEM community!"
         #- name: "Helio Tejeda"
         #  role: "UCI SACNAS Chapter President 2024-2025"
         #  # Upload image to `assets/media/` and reference the filename here

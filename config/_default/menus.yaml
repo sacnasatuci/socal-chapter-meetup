@@ -33,8 +33,22 @@ main:
 # Footer links (4-column layout)
 #   Top-level items become column headings, children become links.
 footer:
-  - name: SoCal Chapter Meet-Up Forms
+  - name: SACNAS National
     weight: 10
+  - parent: SACNAS National
+    name: About
+    url: https://www.sacnas.org/
+    weight: 10
+  - parent: SACNAS National
+    name: Become a Member
+    url: https://www.sacnas.org/memberships
+    weight: 20
+  - parent: SACNAS National
+    name: 2026 Conference
+    url: https://www.sacnas.org/conference
+    weight: 30
+  - name: SoCal Chapter Meet-Up Forms
+    weight: 15
   - parent: SoCal Chapter Meet-Up Forms
     name: Interest Form
     url: https://forms.gle/wCJ1FTRKnRdjr3Rv6
@@ -58,13 +72,9 @@ footer:
   - name: Web Admin
     weight: 40
   - parent: Web Admin
-    name: About
-    url: /authors/_webmaster/
-    weight: 10
-  - parent: Web Admin
     name: Contact
     url: /authors/_webmaster/
-    weight: 20
+    weight: 10
   #- parent: Product
   #  name: Pricing
   #  url: "#"

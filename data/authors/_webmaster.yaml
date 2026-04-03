@@ -9,21 +9,53 @@ name:
   pronouns: he/him/el
 status:
   icon: "🧠 🤖"
-role: PhD Candidate - Cognitive Sciences
-bio: My research interests include human-AI collaboration and AI-assisted decision-making.
+role: #2025-2026 National Liaison<br />2024-2025 Graduate President<br />2023-2024 Social Event Chair<br /> # PhD Candidate - Cognitive Sciences
+bio: | # My research interests include human-AI collaboration and AI-assisted decision-making.
+  My involvement with SACNAS has been one of the most meaningful parts of my graduate journey at UC Irvine.
+  I first joined as a general member in 2023, where I regularly attended general meetings and cafecito events.
+  During this time I helped build community and connected with fellow members (most of whom were other graduate students).
+  <br />
+  <br />
+  For the 2023–2024 academic year, I stepped into a leadership role as Social Events Chair.
+  In this position, I worked closely with other leadership members such as Janelle Bohey (President) and Miles Valencia (Professional Development Chair) to expand the chapter’s reach and make it more inclusive.
+  A major focus of our efforts was broadening participation beyond graduate students by helping establish an undergraduate board dedicated to recruiting and supporting undergraduate members.
+  I also played a key role in strengthening partnerships across campus.
+  In particular, by connecting SACNAS with the Latinx Resource Center (LRC), where we hosted monthly cafecito events to build community with other Latinx organizations.
+  <br />
+  <br />
+  From 2024–2025, I had the privilege of serving as Graduate Student President during a milestone year in which both undergraduate and graduate boards operated together for the first time.
+  My vision centered on mentorship. I wanted to create meaningful connections between graduate and undergraduate members to support leadership development and long-term success within SACNAS.
+  During this time, UC Irvine also hosted a Southern California regional meet-up, bringing together chapters from UC San Diego and CSU Fullerton to strengthen inter-chapter collaboration.
+  <br />
+  <br />
+  To start the 2025–2026 academic year, I transitioned into the role of National Liaison.
+  During this time I worked to build and maintain relationships with SACNAS chapters beyond UC Irvine and served in a co-advising capacity.
+  I also helped expand our outreach efforts by initiating a partnership with a local elementary/middle school.
+  This presented an opportunity for members to teach science lessons to 6th grade students.
+  Additionally, I led efforts to establish a SACNAS alumni network, creating stronger connections with past members who have played an integral role in shaping the chapter.
+  <br />
+  <br />
+  SACNAS has been a defining part of my graduate experience.
+  I entered graduate school with a desire to mentor and support students, especially those who, like me, may not have had access to strong support systems or representation in STEM.
+  Through SACNAS, I found a community that shares those values and a platform to help create lasting change.
+  If my efforts have helped make the path a little easier for those who come after me, then my involvement has been a success.
+  SACNAS has been central to my sense of belonging and fulfillment during graduate school;
+  it is a big part of why I will be finishing my PhD, proud to contribute to the growing community of Latino scientists.
 affiliations:
-  - name: University of California, Irvine
-    url: https://steyvers.socsci.uci.edu/madlab/
+  - name: SACNAS Chapter at UC Irvine
+    url: https://sites.uci.edu/sacnasatuci/
 user_groups:
   - Webmaster
 links:
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/heliodoro-tejeda-lemus/
+  - icon: globe-alt
+    url: https://helio-tejeda.github.io/
+    label: My Website!
   - icon: at-symbol
     url: mailto:htejeda@uci.edu
     label: E-mail Me!
-  #- icon: brands/x
-  #  url: https://x.com/MakeOwnable
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/heliodoro-tejeda-lemus/
+    label: Connect on LinkedIn!
   #- icon: brands/instagram
   #  url: https://www.instagram.com/
   #- icon: academicons/cv

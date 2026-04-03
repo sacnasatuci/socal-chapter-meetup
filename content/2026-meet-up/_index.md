@@ -80,7 +80,7 @@ sections:
   - block: cta-card
     content:
       title: Join the SACNAS SoCal Chapter Meet-Up 2026
-      text: "Fill out the interest form!<br />Deadline: March 28, 2026"
+      text: "Fill out the interest form!<br />Deadline: <b>Tuesday April 7th 2026 @ 6pm</b>"
       button:
         text: Interest Form
         url: https://forms.gle/wCJ1FTRKnRdjr3Rv6

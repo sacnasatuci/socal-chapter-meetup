@@ -201,7 +201,7 @@ sections:
       buttons:
         - text: "Share what SACNAS means to you!"
           url: https://forms.gle/u5earuU1CR2fE1uG9
-          icon: "brands/Chapter-Logo"
+          icon: "brands/SACNAS-Chapter-icon"
         #- text: "For Businesses"
         #  url: "/business"
         #  icon: "building-office"
@@ -212,39 +212,81 @@ sections:
       columns: "1"
       background:
         color: "blue-50"
-  - block: team-showcase
+  - block: portfolio
     id: chapters
     content:
       title: SoCal SACNAS Chapters
       subtitle: |
-        {{< button url="https://www.sacnas.org/chapters/chapter-directory" style="outline" icon="brands/Chapter-Logo" new_tab="true" >}}Full SACNAS Chapter Directory{{< /button >}}
-      text: List of all Southern California SACNAS Chapters 🌊 #Our diverse team brings together expertise from multiple disciplines.
-      user_groups:
-        - Provisional Chapters
-        - Student Chapters
-        - Professional Chapters
-        #- name: Alumni          # optional per-group sort override
-        #  sort_by: graduation_year
-        #  sort_ascending: false
-      sort_by: 'order' #'graduation_year' # legacy 'Params.' prefix optional
-      sort_ascending: true
-      # TODO
-      #   Add a Google Form for SoCal chapters to add additional information and links!
-      #cta:
-      #  text: Update Chapter Info
-      #  url: GoogleForm
-      #  icon: plus
+        {{< button url="https://www.sacnas.org/chapters/chapter-directory" align="center" style="outline" icon="brands/SACNAS-Chapter-icon" new_tab="true" >}}Full SACNAS Chapter Directory{{< /button >}}
+        <br />
+        <br />
+        SoCal SACNAS Chapters by <b>County</b> 🌊
+      count: 0
+      filters:
+        folders:
+          - chapters  # Or: research, portfolio, work, teaching, etc.
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Los Angeles
+          tag: Los Angeles
+        - name: Orange
+          tag: Orange
+        - name: Riverside
+          tag: Riverside
+        - name: San Bernardino
+          tag: San Bernardino
+        - name: San Diego
+          tag: San Diego
+        - name: Santa Barbara
+          tag: Santa Barbara
+        - name: Ventura
+          tag: Ventura
+      default_button_index: 0
+      archive:
+        # Auto-shown if more items exist than displayed
+        # Optionally customize:
+        # enable: false  # Explicitly hide
+        # link: "/work/"  # Custom URL
+        # text: "Browse All"  # Custom text
     design:
-      show_role: true
-      show_organizations: true
-      show_interests: true
-      max_interests: 3   # set 0 to hide interests even if provided
-      align: center      # or "left" to align header + CTA left
-      max_columns: 4     # 2, 3, or 4
-      show_social: true
-      show_empty_groups: false # show a placeholder when a group has no members
+      columns: 4
+      fallback_icon: brands/SACNAS-Chapter-icon #code-bracket  # Or: academic-cap, paint-brush, camera, etc.
       # Section background color (CSS class)
-      css_class: "bg-gray-50 dark:bg-gray-900"
+      css_class: "bg-gray-50 dark:bg-gray-900 center-container center-block"
+  #- block: team-showcase
+  #  id: chapters
+  #  content:
+  #    title: SoCal SACNAS Chapters
+  #    subtitle: |
+  #      {{< button url="https://www.sacnas.org/chapters/chapter-directory" style="outline" icon="brands/SACNAS-Chapter-icon" new_tab="true" >}}Full SACNAS Chapter Directory{{< /button >}}
+  #    text: List of all Southern California SACNAS Chapters 🌊 #Our diverse team brings together expertise from multiple disciplines.
+  #    user_groups:
+  #      - Provisional Chapters
+  #      - Student Chapters
+  #      - Professional Chapters
+  #      #- name: Alumni          # optional per-group sort override
+  #      #  sort_by: graduation_year
+  #      #  sort_ascending: false
+  #    sort_by: 'order' #'graduation_year' # legacy 'Params.' prefix optional
+  #    sort_ascending: true
+  #    # TODO
+  #    #   Add a Google Form for SoCal chapters to add additional information and links!
+  #    #cta:
+  #    #  text: Update Chapter Info
+  #    #  url: GoogleForm
+  #    #  icon: plus
+  #  design:
+  #    show_role: true
+  #    show_organizations: true
+  #    show_interests: true
+  #    max_interests: 3   # set 0 to hide interests even if provided
+  #    align: center      # or "left" to align header + CTA left
+  #    max_columns: 4     # 2, 3, or 4
+  #    show_social: true
+  #    show_empty_groups: false # show a placeholder when a group has no members
+  #    # Section background color (CSS class)
+  #    css_class: "bg-gray-50 dark:bg-gray-900"
 #  - block: features
 #    id: chapters
 #    content:
@@ -331,7 +373,7 @@ sections:
       primary_action:
         text: "Learn More"
         url: "https://www.sacnas.org/"
-        icon: brands/Chapter-Logo
+        icon: brands/SACNAS-Chapter-icon
       secondary_action:
         text: "Become a Member"
         url: "https://www.sacnas.org/memberships"

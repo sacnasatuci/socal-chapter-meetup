@@ -356,7 +356,7 @@ sections:
 #          description: "<b>Chapter Name</b>: SACNAS at SWC<br /><b>Chapter Type</b>: Student"
   - block: cta-card
     content:
-      title: "SACNAS SoCal Chapter<br />Meet-Up 2026"
+      title: "SoCal SACNAS Chapter<br />Meet-Up 2026"
       text: |
         Event Date:
         <br />
